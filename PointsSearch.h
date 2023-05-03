@@ -23,7 +23,7 @@ public:
     ~PointsSearch();
 
     void startMainWindow();
-    void readShpFile();
+    bool readShpFile();
     bool readCsvFile();
     void warningMessage(QString msg);
 
